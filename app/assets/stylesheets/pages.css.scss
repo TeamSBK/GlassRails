@@ -20,4 +20,13 @@
 section {
   padding: 25px;
   font-family: 'Raleway', Helvetica, Arial, sans-serif !important;
-}
+
+  .users-list {
+    margin-top: 25px;
+    width: 100%;
+
+    th { text-align: center; }//element th
+
+  }//class users-list
+}//element section
+

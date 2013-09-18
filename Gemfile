@@ -10,7 +10,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
-gem 'glass-api', require: 'glass'
+gem 'glass-api', '~> 0.1.2', require: 'glass'
 gem 'haml-rails'
 gem 'backbone-on-rails', github: 'akosipc/backbone-on-rails'
 

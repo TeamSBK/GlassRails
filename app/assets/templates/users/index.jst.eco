@@ -1,0 +1,14 @@
+<table class='users-list'>
+  <thead>
+    <tr>
+      <th>E-mail</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="users">
+
+  </tbody>
+</table>
+

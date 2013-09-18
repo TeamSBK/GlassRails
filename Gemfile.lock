@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/akosipc/backbone-on-rails.git
+  revision: c23dbf72e3e087aa7c4c45bc7519cc6118f60346
+  specs:
+    backbone-on-rails (1.0.0.1)
+      eco
+      ejs
+      jquery-rails
+      rails (>= 3.1)
+
 PATH
   remote: /Users/akosipc/Adrian/TeamSBK/glass
   specs:
@@ -48,6 +58,12 @@ GEM
       sass (~> 3.1)
     compass-rails (2.0.alpha.0)
       compass (>= 0.12.2, < 0.14)
+    eco (1.0.0)
+      coffee-script
+      eco-source
+      execjs
+    eco-source (1.1.0.rc.1)
+    ejs (1.1.1)
     erubis (2.7.0)
     execjs (2.0.1)
     fssm (0.2.10)
@@ -131,6 +147,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  backbone-on-rails!
   coffee-rails (~> 4.0.0)
   compass-rails (~> 2.0.alpha.0)
   glass-api!

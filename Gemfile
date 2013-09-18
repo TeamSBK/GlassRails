@@ -16,6 +16,7 @@ gem 'backbone-on-rails', github: 'akosipc/backbone-on-rails'
 
 gem 'compass-rails', "~> 2.0.alpha.0"
 gem 'zurb-foundation'
+gem 'google-webfonts'
 
 group :doc do
   gem 'sdoc', require: false

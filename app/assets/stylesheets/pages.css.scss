@@ -1,3 +1,23 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.side-nav {
+  h2 {
+    font-family: 'Rancho', cursive;
+    color: #2BA6CB;
+    margin: 15px 0px 25px 0px;
+  }//element h2
+
+  li {
+    a {
+      color: #333;
+      &:hover { text-decoration: underline; }//selector hover
+    }//element anchor
+  }//element li
+}//class side-nav
+
+section {
+  padding: 25px;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif !important;
+}

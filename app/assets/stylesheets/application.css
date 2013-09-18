@@ -12,3 +12,17 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
+
+
+.left { float: left; }
+.right { float: right; }
+.centerify { text-align: center; margin: auto; }
+.verticalify { position: absolute; display: table; left: 0; right: 0; top: 0; bottom: 0; margin: auto; }
+.high-quarter-container { width: 720px; margin: auto; }
+.half-container { width: 480px; margin: auto; }
+.quarter-container { width: 240px; margin: auto; }
+.clearfix { clear: both; }
+.no-margin: { margin: 0px !important; }
+.no-padding-right: { padding-right: 0px !important; }
+.no-padding-left: { padding-left: 0px !important; }
+

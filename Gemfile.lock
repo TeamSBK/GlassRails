@@ -67,6 +67,8 @@ GEM
     erubis (2.7.0)
     execjs (2.0.1)
     fssm (0.2.10)
+    google-webfonts (0.1.2)
+      actionpack (>= 3.0.0)
     haml (4.0.3)
       tilt
     haml-rails (0.4)
@@ -151,6 +153,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   compass-rails (~> 2.0.alpha.0)
   glass-api!
+  google-webfonts
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails

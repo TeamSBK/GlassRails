@@ -21,6 +21,18 @@ section {
   padding: 25px;
   font-family: 'Raleway', Helvetica, Arial, sans-serif !important;
 
+  #user-form {
+    margin: auto;
+    width: 75%;
+    display: none;
+
+    label {
+      text-align: right;
+      padding: 8px 0px;
+    }//element label
+
+  }//id user-form
+
   .users-list {
     margin: auto;
     margin-top: 25px;

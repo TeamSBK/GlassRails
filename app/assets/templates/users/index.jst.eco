@@ -22,6 +22,8 @@
     <input type='text' placeholder='Last Name' name='last_name' id='last_name'>
   </div>
 
+  <input type='hidden' name='id' id='id'>
+
   <div class='large-12 small-12 columns centerify'>
     <button class='button centerify create'>
       <i class='general fi-check'></i>

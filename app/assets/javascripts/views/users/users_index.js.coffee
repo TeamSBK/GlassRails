@@ -12,8 +12,8 @@ class GlassRails.Views.UsersIndex extends Backbone.View
     glass.User.findAll (res, err) ->
       @collection = res unless err
 
-      current_view = @
       _.map @collection, (user) ->
         view = new GlassRails.Views.UsersShow(model: user)
+        view.render()
 
       @

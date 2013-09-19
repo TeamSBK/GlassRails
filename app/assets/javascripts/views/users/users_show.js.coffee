@@ -2,5 +2,13 @@ class GlassRails.Views.UsersShow extends Backbone.View
 
   template: JST['users/show']
 
+  tagName: 'tr'
+
+  el: '#users'
+
   initialize: ->
-    #console.log(@model)
+
+  render: ->
+    $(@el).append(@template({model: @model}))
+    @
+

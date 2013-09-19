@@ -1,0 +1,11 @@
+<tr>
+  <td class='centerify'> <%= @model.id %> </td>
+  <td> <%= @model.email %> </td>
+  <td> <%= @model.first_name%> </td>
+  <td> <%= @model.last_name %> </td>
+  <td class='centerify'>
+    <a href='#'> <i class='general fi-page-edit'></i> Edit</a>
+    <a href='#'> <i class='general fi-trash'></i> Delete</a>
+  </td>
+</tr>
+

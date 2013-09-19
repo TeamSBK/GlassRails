@@ -1,0 +1,52 @@
+<button class='button success tiny new'> <i class='general fi-plus'></i> New User </button>
+
+<form id="user-form">
+  <div class='large-3 small-3 columns'>
+    <label for='email'>Email Address: </label>
+  </div>
+  <div class='large-9 small-9 columns'>
+    <input type='email' placeholder='Email Address' name='email' id='email'>
+  </div>
+
+  <div class='large-3 small-3 columns'>
+    <label for='first_name'>First Name: </label>
+  </div>
+  <div class='large-9 small-9 columns'>
+    <input type='text' placeholder='First Name' name='first_name' id='first_name'>
+  </div>
+
+  <div class='large-3 small-3 columns'>
+    <label for='last_name'>Last Name: </label>
+  </div>
+  <div class='large-9 small-9 columns'>
+    <input type='text' placeholder='Last Name' name='last_name' id='last_name'>
+  </div>
+
+  <div class='large-12 small-12 columns centerify'>
+    <button class='button centerify create'>
+      <i class='general fi-check'></i>
+      Create User
+    </button>
+    <button class='button centerify update'>
+      <i class='general fi-check'></i>
+      Update User
+    </button>
+  </div>
+</form>
+
+
+<table class='users-list'>
+  <thead>
+    <tr>
+      <th>ID</td>
+      <th>E-mail</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="users">
+
+  </tbody>
+</table>
+

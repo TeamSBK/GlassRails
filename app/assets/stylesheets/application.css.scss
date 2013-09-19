@@ -13,6 +13,7 @@
  *= require_tree .
  */
 
+@import 'foundation-icons';
 
 .left { float: left; }
 .right { float: right; }
@@ -22,7 +23,7 @@
 .half-container { width: 480px; margin: auto; }
 .quarter-container { width: 240px; margin: auto; }
 .clearfix { clear: both; }
-.no-margin: { margin: 0px !important; }
-.no-padding-right: { padding-right: 0px !important; }
-.no-padding-left: { padding-left: 0px !important; }
+.no-margin { margin: 0px !important; }
+.no-padding-right { padding-right: 0px !important; }
+.no-padding-left { padding-left: 0px !important; }
 

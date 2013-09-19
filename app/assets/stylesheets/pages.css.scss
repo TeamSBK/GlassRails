@@ -20,4 +20,37 @@
 section {
   padding: 25px;
   font-family: 'Raleway', Helvetica, Arial, sans-serif !important;
-}
+
+  #user-form {
+    margin: auto;
+    width: 75%;
+    display: none;
+
+    label {
+      text-align: right;
+      padding: 8px 0px;
+    }//element label
+
+  }//id user-form
+
+  .users-list {
+    margin: auto;
+    margin-top: 25px;
+    width: 75%;
+
+    th {
+      text-align: center;
+      font-weight: bold;
+    }//element th
+
+    td {
+      a {
+        color: #333;
+        margin: 0px 5px;
+        &:hover { text-decoration: underline; }//selector hover
+        i { color: #333; }//element i
+      }//element anchor
+    }//element td
+  }//class users-list
+}//element section
+

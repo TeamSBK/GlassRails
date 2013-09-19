@@ -10,12 +10,13 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
-gem 'glass-api', '~> 0.1.1', require: 'glass'
+gem 'glass-api', '~> 0.1.3', require: 'glass'
 gem 'haml-rails'
 gem 'backbone-on-rails', github: 'akosipc/backbone-on-rails'
 
 gem 'compass-rails', "~> 2.0.alpha.0"
 gem 'zurb-foundation'
+gem 'foundation-icons-sass-rails'
 gem 'google-webfonts'
 
 group :doc do
